@@ -68,7 +68,7 @@ const onSubmit = async () => {
   loading.value = true
 
   try {
-    const data: any = await $fetch('http://localhost:3000/api/auth/login', {
+    const data: any = await $fetch('http://localhost:3333/api/auth/login', {
       method: 'POST',
       body: form.value
     })
